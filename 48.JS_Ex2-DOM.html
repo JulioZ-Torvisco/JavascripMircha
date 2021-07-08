@@ -1,0 +1,75 @@
+<html lang="es" data-dark>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.1.3/hamburgers.min.css">
+  <link rel="stylesheet" href="48.JS_Ex2-DOM.css">
+  <script src="https://kit.fontawesome.com/fd03c8adc4.js" crossorigin="anonymous"></script>
+  <title>Document</title>
+</head>
+
+<body data-dark>
+  <header class="header" data-dark>
+    <h1>Ejercicios del DOM</h1>
+  </header>
+  <button class="panel-btn hamburger hamburger--vortex" type="button">
+    <span class="hamburger-box">
+      <span class="hamburger-inner"></span>
+    </span>
+  </button>
+  <aside class="sidebar">
+    <nav class="menu">
+      <a href="#seccion1">Seccion 1</a>
+      <a href="#seccion2">Seccion 2</a>
+      <a href="#seccion3">Seccion 3</a>
+      <a href="#seccion4">Seccion 4</a>
+      <a href="#seccion5">Seccion 5</a>
+    </nav>
+  </aside>
+  <main>
+    <section id="seccion1" class="section">
+      <h2>Reloj Digital y Alarma Sonora</h2>
+      <div id="reloj">
+      </div>
+      <button id="start-clock">Iniciar Reloj</button>
+      <button id="stop-clock">Detener Reloj</button>
+      <button id="start-alarm">Iniciar Alarma</button>
+      <button id="stop-alarm">Detener Alarma</button>
+      </div>
+    </section>
+    <section id="seccion2" class="section">
+      <h2>Eventos del Teclado</h2>
+      <div class="escenario">
+        <div class="circulo"></div>
+      </div>
+    </section>
+    <section id="seccion3" class="section">
+      <h2>Cuenta Regresiva</h2>
+      <div id="countdown" style="font-weight: bolder; font-size: 40px;">
+      </div>
+    </section>
+    <section id="seccion4" class="section">
+      <h2>Seccion 4</h2>
+    </section>
+    <section id="seccion5" class="section">
+      <h2>Seccion 5</h2>
+    </section>
+    <button id="up-btn" class="ocultar">
+      <i class="fa fa-angle-up fa-6x"></i>
+    </button>
+    <button class="dark-btn">
+      🌙
+    </button>
+    <!--Mi forma dark mode -->
+    <!--button id="dark-btn" class="mostrar" >
+      <i class="fa fa-moon-o fa-3x"></i>
+    </main>
+    <button id="light-btn" class="ocultar" >
+      <i class="fa fa-sun-o fa-3x"></i>
+    </main>-->
+    <script src="48.JS_Ex2-DOM.js" type="module"></script>
+</body>
+
+</html>
